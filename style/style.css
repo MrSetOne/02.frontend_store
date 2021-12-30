@@ -83,7 +83,8 @@ body{
     letter-spacing: .3rem;
 }
 
-.navegador__item h2{
+.navegador__item h2,
+.navegador__item--active a{
     cursor: default;
 }
 
