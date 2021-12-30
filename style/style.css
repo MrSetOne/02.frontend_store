@@ -1,7 +1,11 @@
 :root{
-    
+    --negro: black;
+    --casinegro: #041C32;
+    --oscuro: #04293A;
+    --principal: #064663;
+    --destacado: #ECB365;
+    --blanco: white;
 }
-
 
 /*CSS init*/
 *{
