@@ -1,10 +1,15 @@
 :root{
+    /*Colores*/
     --negro: black;
     --casinegro: #041C32;
     --oscuro: #04293A;
     --principal: #064663;
     --destacado: #ECB365;
     --blanco: white;
+
+    /*Fuentes*/
+    --fuente_principal: font-family: 'Montserrat', sans-serif;
+    --fuente_titulo: font-family: 'Anton', sans-serif;
 }
 
 /*CSS init*/
@@ -26,3 +31,5 @@ html{
 body{
     font-size: 16px;
 }
+
+/*Globales*/
