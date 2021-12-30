@@ -8,8 +8,8 @@
     --blanco: white;
 
     /*Fuentes*/
-    --fuente_principal: font-family: 'Montserrat', sans-serif;
-    --fuente_titulo: font-family: 'Anton', sans-serif;
+    --fuente_principal: 'Montserrat', sans-serif;
+    --fuente_titulo: 'Anton', sans-serif;
 }
 
 /*CSS init*/
@@ -28,8 +28,12 @@ html{
     box-sizing: border-box;
 }
 
-body{
-    font-size: 16px;
-}
-
 /*Globales*/
+*{font-family: var(--fuente_principal);}
+h1,h2,h3{font-family: var(--fuente_titulo);text-transform: uppercase;}
+h1{font-size: 3rem;}
+h2{font-size: 2rem;}
+h3{font-size: 1.5rem;}
+.center{text-align: center;}
+
+
