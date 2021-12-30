@@ -44,9 +44,6 @@ body{
     background-color: var(--principal);
 }
 
-
-
-
 /*Header*/
 .logo{
     flex-direction: column;
