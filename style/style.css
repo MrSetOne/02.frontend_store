@@ -95,3 +95,5 @@ body{
 @media (hover:hover){
     .navegador__item:hover > a{color: var(--destacado);}
 }
+
+.navegador__item a:active{color: var(--casinegro);}
