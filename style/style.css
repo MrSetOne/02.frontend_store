@@ -64,8 +64,6 @@ body{
     .logo:hover>.logo__bottom{color: var(--blanco);}
 }
 
-
-
 /*Nav*/
 .navegador{
     background-color: var(--oscuro);
@@ -97,7 +95,6 @@ body{
 }
 
 .navegador__item a:active{color: var(--casinegro);}
-
 
 /*Footer*/
 .footer{
