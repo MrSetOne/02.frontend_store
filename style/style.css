@@ -64,6 +64,8 @@ body{
     .logo:hover>.logo__bottom{color: var(--blanco);}
 }
 
+
+
 /*Nav*/
 .navegador{
     background-color: var(--oscuro);
@@ -95,3 +97,12 @@ body{
 }
 
 .navegador__item a:active{color: var(--casinegro);}
+
+
+/*Footer*/
+.footer{
+    text-align: end;
+    background-color: var(--oscuro);
+    padding: 1rem;
+    color: var(--blanco);
+}
