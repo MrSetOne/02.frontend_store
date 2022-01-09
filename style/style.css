@@ -112,3 +112,54 @@ main{
     border-radius: 2rem;
 }
 
+/*Productos*/
+main h2{
+    color: var(--destacado);
+    letter-spacing: .3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.catalogo{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
+    gap: 3rem;
+    grid-auto-flow: dense;
+}
+
+.catalogo__decoracion{
+    grid-column: span 2;
+    height: 100%;
+    width: 100%;
+    background-color: var(--casinegro);
+}
+
+.catalogo__producto a{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--casinegro);
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.catalogo__producto a *{
+    margin: .5rem;
+    text-align: center;
+    letter-spacing: .3rem;
+}
+
+.producto__imagen{
+    width: 100%;
+    border-radius: .8rem;
+}
+
+.producto__titulo{
+    color: var(--blanco);
+    font-size: 2rem;
+}
+
+.producto__precio{
+    color: var(--destacado);
+    font-size: 2.6rem;
+}
+
