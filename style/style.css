@@ -108,7 +108,7 @@ body{
 main{
     background-color: var(--oscuro);
     margin: 1rem 10vw 1rem 10vw;
-    padding: 3rem;
+    padding: 5vw;
     border-radius: 2rem;
 }
 
@@ -219,11 +219,15 @@ main h2{
 
 @media (max-width: 1380px){
     .nosotros{
-        flex-direction:column;
+        flex-direction:column-reverse;
     }
-    .nosotros p,
-    .nosotros img{
+    .nosotros p{
         width: 100%;
+    }
+    .nosotros img{
+        width: 70%;
+        height: 30rem;
+        object-fit: cover;
     }
 }
 
