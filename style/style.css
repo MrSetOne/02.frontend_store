@@ -337,7 +337,7 @@ main h2{
 
 @media (max-width: 980px){
     .compra{
-        grid-template-columns:minmax(min-content, 1fr);
+        grid-template-columns: 1fr;
     }
 }
 
@@ -345,5 +345,14 @@ main h2{
     .formulario__submit:hover{
         background-color: var(--casinegro);
         color: var(--destacado);
-    };
-};
+    }
+}
+
+@media (max-width: 575px){
+    .formulario__submit{
+        grid-column: span 1;
+    }
+    .compra__formulario{
+        grid-template-columns: 1fr;
+    }
+}
